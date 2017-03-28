@@ -1,0 +1,492 @@
+body {
+	margin:  0; 
+}
+
+.section-main{
+	background-image: url("img/Livello 1.png");
+	background-size:cover;
+	background-repeat: no-repeat;
+	width: 1280px;
+	height: 745px;
+	margin:auto;
+
+}
+.main-div{
+
+	position: relative;
+    top: 51px;
+	font-family: 'Gotham Rounded' ;
+	font-size: 16px;
+	text-transform: uppercase;
+	color:white ;
+	/* letter-spacing: 150px;
+	padding: 33px 0 245px 0;
+	letter-spacing: 3px; */
+}
+.main-div img{
+	position: relative;
+    top: -11px;
+    left: 607px;
+}
+.span1{
+	top: 18px;
+    position: absolute;
+    left: 273px;
+    font-size: 11.5pt;
+    letter-spacing: 0.18em;
+}
+.span2{
+	top: 18px;
+    left: 396px;
+    position: absolute;
+    font-size: 11.5pt;
+    letter-spacing: 0.18em;
+
+}
+.span3{
+    top: 18px;
+    left: 759px;
+    position: absolute;
+    font-size: 11.5pt;
+    letter-spacing: 0.18em;
+}
+
+.span4{
+    top: 18px;
+    position: absolute;
+    left: 913px;
+    font-size: 11.5pt;
+    letter-spacing: 0.18em;
+}
+
+.main-p{
+
+	font-family: 'Gotham Rounded' ;
+	font-size: 36px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 5.4px;
+    margin-top: 273px;
+    margin-left: 390px;
+	
+}
+.main-p1{
+	font-family: 'Gotham Rounded' ;
+	font-size: 16px;
+	color: white; 
+	letter-spacing: 2.4px;
+    margin-top: -28px;
+    margin-left: 476px;
+    margin-bottom: 40px; 
+
+}
+.main-button{
+
+	font-family: 'Gotham Rounded' ;
+	font-size: 10px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: white;
+	background-color:  #16a085;
+	text-decoration: none;
+	 padding: 20px 30px 19px 31px;
+     border-radius: 3px;
+    margin-left: 558px;
+    }
+ 
+ .main-links
+ {
+    margin-top: 238px;
+    margin-left: 590px;
+    letter-spacing: 12.4px;
+ }
+
+ .section2{
+ 	background-image: url("img/phototime-Recovered.png");
+	background-size:cover;
+	background-repeat: no-repeat;
+	width: 1280px;
+    margin: auto;
+    padding-bottom: 137px;
+
+ }
+ .container {
+ 	width: 500px;
+ 	overflow: visible;
+ 	padding-top: 94px;
+ 	padding-left: 128px;
+    padding-bottom: 35px;
+
+ }
+ .parPhone1 {
+ 	color: #16a085;
+    width: 430px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2.7px;
+    font-family: 'Gotham Rounded';
+    font-weight: bold;
+    padding-bottom: 20px;
+
+ }
+.parPhone2{
+	font-size: 12px;
+    font-weight: book;
+    font-family: 'Gotham Rounded';
+    width: 430px;
+    line-height: 25px;
+    letter-spacing: 1.7px;
+   }
+
+.main-button-phone {
+	position: absolute;
+    font-family: 'Gotham Rounded';
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
+    background-color: #16a085;
+    text-decoration: none;
+    padding: 18px 39px 18px 40px;
+    border-radius: 3px;
+    margin-left: 2px;
+    margin-top: 32px;
+}
+.section3{
+ 	
+	background-size:cover;
+	background-repeat: no-repeat;
+	width: 1280px;
+	height: 558px;
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 1px;
+ }
+ .containerDesign {
+ 	width: 500px;
+ 	padding-top: 93px;
+ 	padding-left: 766px;
+    margin-top: 142px;
+    overflow: hidden;
+ }
+  .parPhoneDesign {
+  	display: inline-block;
+ 	color: #16a085;
+    width: 430px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2.7px;
+    font-family: 'Gotham Rounded';
+    font-weight: bold;
+    padding-left: 765px;
+    margin-top: 142px;
+ }
+.parDesign{
+	display: inline-block;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Gotham Rounded';
+    width: 430px;
+    line-height: 23px;
+    letter-spacing: 1.8px;
+    padding-left: 769px;
+    padding-top: 5px;
+    padding-bottom: 22px;
+   }
+
+.main-button-design {
+	display: inline-block;
+	font-family: 'Gotham Rounded';
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.7px;
+    color: white;
+    background-color: #16a085;
+    text-decoration: none;
+    padding: 20px 45px 19px 44px;
+    /* border-radius: 0px; */
+    margin-left: 766px;
+}
+.imgiPhone{
+	position: absolute;
+	display: inline-block;
+	padding-left: 123px;
+    /* padding-bottom: 67px; */
+    padding-top: 145px;
+}
+.data{
+	display: inline-block;
+	font-weight: bold;
+	font-size: 12px;
+    font-family: 'Gotham Rounded';
+    letter-spacing: 1.7px;
+    padding-left: 767px;
+    padding-top: 32px;
+    margin-bottom: 7px;
+}
+
+.img-left-right{
+	display: inline-block;
+	font-size: 12px;
+    letter-spacing: 17.7px;
+    padding-left: 767px;
+    margin-top: -11px;
+}
+
+.section4{
+	background-color: #f5f6f7;
+	background-size:cover;
+	width: 1280px;
+	height: 484px;
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 1px;
+ }
+ .container4 {
+ 	/* color: #f5f6f7; */
+ 	width: 438px;
+ 	
+ }
+
+ .imgCamera{
+ 	position: absolute;
+	display: inline-block;
+	padding-left: 188px;
+    padding-top: 164px;
+
+ }
+ .community{
+ 	color: #373737;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    font-weight: book;
+    font-family: 'Gotham Rounded';
+    line-height: 28px;
+    letter-spacing: 2.2px;
+    padding-left: 129px;
+    padding-top: 245px;
+    margin: 0;
+ }
+.community-text{
+	display: inline-block;
+    font-size: 10px;
+    font-weight: medium;
+    font-family: 'Gotham Rounded';
+    line-height: 12px;
+    letter-spacing: 1.5px;
+    padding-top: 3px;
+}
+.images{
+	position: absolute;
+	display: inline-block;
+	letter-spacing: 19.7px;
+    padding-left: 387px;
+    margin-top: -211px;
+}
+.img-left-right-2pictures{
+	position: absolute;
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 14.7px;
+    padding-left: 1112px;
+    margin-top: 93px;
+}
+.section5{
+	background-image: url("img/Livello 3.png");
+    background-size: cover;
+    width: 1280px;
+    height: 785px;
+    margin: auto;
+    overflow: hidden;
+ }
+ .subscribe{
+ 	color: #ffffff;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Gotham Rounded';
+    line-height: 28px;
+    letter-spacing: 3.6px;
+    padding-left: 402px;
+    padding-top: 334px;
+    margin: 0;
+ }
+ .container-subscribe{
+ 	padding-top: 12px;
+ }
+ .mail{
+ 	position: absolute;
+    font-family: 'Gotham Rounded';
+    font-size: 16px;
+    color: #373737;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
+    background-color: #ffffff;
+    text-decoration: none;
+    width: 281px;
+    padding: 21px 0px 17px 19px;
+    border-radius: 3px;
+    margin-left: 468px;
+    margin-top: 28px;
+ }
+
+.section6{
+	background-color: #f5f6f7;
+	background-size:cover;
+	width: 1280px;
+	height: 396px;
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 1px;
+}
+.container-download-it{
+	width: 1118px;
+}
+.download-itit{
+ 	color: #373737;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Gotham Rounded';
+    line-height: 28px;
+    letter-spacing: 2.7px;
+    padding-left: 547px;
+    padding-top: 86px;
+    margin: 0;
+ }
+.download-it-text{
+	display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: medium;
+    font-family: 'Gotham Rounded';
+    line-height: 23px;
+    letter-spacing: 2.5px;
+    padding-left: 208px;
+    padding-top: 5px;
+    margin: 0;
+}
+.buttons{
+	position: relative;
+	border-radius: 3px;
+	display: inline-block;
+	font-family: 'Gotham Rounded';
+    letter-spacing: 2.7px;
+    /* border-radius: 0px; */
+    margin-left: 1px;
+
+}
+.apple-button{
+	position: absolute;
+    text-transform: uppercase;
+    letter-spacing: 2.7px;
+    color: white;
+    font-size: 17px;
+    background-color: #1abc9c;
+    text-decoration: none;
+    padding: 5px 147px 8px 21px;
+    top: 27px;
+    left: 329px;
+}
+.check-apple{
+	width: 57px;
+    height: 55px;
+    position: absolute;
+    margin-left: 748px;
+    margin-top: 28px;
+    background: url(img/fa-apple.png) no-repeat #16a085;
+    background-position: 18px 16px;
+    background-size: 19px 23px;
+    display: inline-block;
+    left: -178px;
+    top: -1px;
+}
+
+.play-button{
+	text-transform: uppercase;
+    letter-spacing: 2.7px;
+    color: white;
+    font-size: 18px;
+    background-color: #1abc9c;
+    text-decoration: none;
+    padding: 1px 75px 10px 88px;
+    position: absolute;
+    left: 652px;
+    top: 27px;
+}
+
+.check-android {
+	width: 56px;
+    height: 55px;
+    position: absolute;
+    margin-left: 748px;
+    margin-top: 15px;
+    background: url(img/fa-android.png) no-repeat #16a085;
+    background-position: 17px 15px;
+    background-size: 25px 30px;
+    display: inline-block;
+    left: 143px;
+    top: 20pz;
+    top: 13px;
+}
+
+.section7{
+	background-color: #ffffff;
+    background-size: cover;
+    width: 1280px;
+    height: 131px;
+    margin: auto;
+}
+.link-below{
+	font-family: 'Gotham Rounded';
+    color: #373737;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2.6px;
+    text-decoration: none;
+    margin-left: 125px;
+    margin-top: -51px;
+    margin-bottom: 20px;
+}
+.link-below a{
+	text-decoration: none;
+	color: black;
+}
+.right-reserved{
+	font-family: 'Gotham Rounded';
+    color: #373737;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2.1px;
+    text-decoration: none;
+    margin-left: 126px;
+}
+.last-camera{
+	padding-top: 38px;
+    padding-left: 1098px;
+}
+.check {
+	width: 60px;
+    height: 60px;
+    position: absolute;
+    margin-left: 748px;
+    margin-top: 28px;
+    background: url(img/fa-check.png) no-repeat #16a085;
+    background-position: 21px 21px;
+    background-size: 22px 19px;
+    display: inline-block;
+}
+.line {
+	color: #16a085;
+	margin: 0 4px;
+}
