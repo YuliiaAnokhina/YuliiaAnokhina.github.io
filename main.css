@@ -2,6 +2,12 @@ body {
 	margin:  0; 
 }
 
+@font-face {
+  font-family: 'Gotham Rounded';
+       url('fonts/GothamRoundedBold_2016.ttf')  format('truetype'), /* Safari, Android, iOS */
+      
+}
+
 .section-main{
 	background-image: url("img/Livello 1.png");
 	background-size:cover;
@@ -398,8 +404,8 @@ body {
     left: 329px;
 }
 .check-apple{
-	width: 57px;
-    height: 55px;
+    width: 57px;
+    height: 53px;
     position: absolute;
     margin-left: 748px;
     margin-top: 28px;
@@ -426,7 +432,7 @@ body {
 
 .check-android {
 	width: 56px;
-    height: 55px;
+    height: 53px;
     position: absolute;
     margin-left: 748px;
     margin-top: 15px;
