@@ -1,12 +1,38 @@
 body {
 	margin:  0; 
 }
-
+/* 
 @font-face {
-  font-family: 'Gotham Rounded';
-       url('fonts/GothamRoundedBold_2016.ttf')  format('truetype'), /* Safari, Android, iOS */
+  font-family: 'mainFont';
+       url('fonts/mainFont')  format('truetype'); 
       
 }
+ */
+
+    @font-face {
+
+    font-family: mainFont; /* имя шрифта для CSS правил */
+    src: url('fonts/mainFont.ttf'); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+  }
+
+/* 
+@font-face{
+
+font-family: 'MyWebFont';
+
+src: url('../fonts/WebFont.eot');
+
+src: url('../fonts/WebFont.eot?iefix') format('eot'),
+
+url('../fonts/WebFont.woff') format('woff'),
+
+url('../fonts/WebFont.ttf') format('truetype');
+
+font-weight: normal;
+
+font-style: normal;
+
+} */
 
 .section-main{
 	background-image: url("img/Livello 1.png");
@@ -21,7 +47,7 @@ body {
 
 	position: relative;
     top: 51px;
-	font-family: 'Gotham Rounded' ;
+	font-family: 'mainFont' ;
 	font-size: 16px;
 	text-transform: uppercase;
 	color:white ;
@@ -67,7 +93,7 @@ body {
 
 .main-p{
 
-	font-family: 'Gotham Rounded' ;
+	font-family: 'mainFont' ;
 	font-size: 36px;
 	color: white;
 	text-transform: uppercase;
@@ -78,7 +104,7 @@ body {
 	
 }
 .main-p1{
-	font-family: 'Gotham Rounded' ;
+	font-family: 'mainFont' ;
 	font-size: 16px;
 	color: white; 
 	letter-spacing: 2.4px;
@@ -89,7 +115,7 @@ body {
 }
 .main-button{
 
-	font-family: 'Gotham Rounded' ;
+	font-family: 'mainFont' ;
 	font-size: 10px;
 	text-transform: uppercase;
 	letter-spacing: 3px;
@@ -132,7 +158,7 @@ body {
     text-transform: uppercase;
     font-size: 18px;
     letter-spacing: 2.7px;
-    font-family: 'Gotham Rounded';
+    font-family: 'mainFont';
     font-weight: bold;
     padding-bottom: 20px;
 
@@ -140,7 +166,7 @@ body {
 .parPhone2{
 	font-size: 12px;
     font-weight: book;
-    font-family: 'Gotham Rounded';
+    font-family: 'mainFont';
     width: 430px;
     line-height: 25px;
     letter-spacing: 1.7px;
@@ -148,7 +174,7 @@ body {
 
 .main-button-phone {
 	position: absolute;
-    font-family: 'Gotham Rounded';
+    font-family: 'mainFont';
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -185,7 +211,7 @@ body {
     text-transform: uppercase;
     font-size: 18px;
     letter-spacing: 2.7px;
-    font-family: 'Gotham Rounded';
+    font-family: 'mainFont';
     font-weight: bold;
     padding-left: 765px;
     margin-top: 142px;
@@ -194,7 +220,7 @@ body {
 	display: inline-block;
     font-size: 12px;
     font-weight: 300;
-    font-family: 'Gotham Rounded';
+    font-family: 'mainFont';
     width: 430px;
     line-height: 23px;
     letter-spacing: 1.8px;
@@ -205,7 +231,7 @@ body {
 
 .main-button-design {
 	display: inline-block;
-	font-family: 'Gotham Rounded';
+	font-family: 'mainFont';
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 2.7px;
@@ -227,7 +253,7 @@ body {
 	display: inline-block;
 	font-weight: bold;
 	font-size: 12px;
-    font-family: 'Gotham Rounded';
+    font-family: 'mainFont';
     letter-spacing: 1.7px;
     padding-left: 767px;
     padding-top: 32px;
@@ -271,7 +297,7 @@ body {
     font-weight: bold;
     font-size: 16px;
     font-weight: book;
-    font-family: 'Gotham Rounded';
+    font-family: 'mainFont';
     line-height: 28px;
     letter-spacing: 2.2px;
     padding-left: 129px;
@@ -282,7 +308,7 @@ body {
 	display: inline-block;
     font-size: 10px;
     font-weight: medium;
-    font-family: 'Gotham Rounded';
+    font-family: 'mainFont';
     line-height: 12px;
     letter-spacing: 1.5px;
     padding-top: 3px;
@@ -317,7 +343,7 @@ body {
     font-weight: bold;
     font-size: 24px;
     font-weight: bold;
-    font-family: 'Gotham Rounded';
+    font-family: 'mainFont';
     line-height: 28px;
     letter-spacing: 3.6px;
     padding-left: 402px;
@@ -329,7 +355,7 @@ body {
  }
  .mail{
  	position: absolute;
-    font-family: 'Gotham Rounded';
+    font-family: 'mainFont';
     font-size: 16px;
     color: #373737;
     text-transform: uppercase;
@@ -362,7 +388,7 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 20px;
-    font-family: 'Gotham Rounded';
+    font-family: 'mainFont';
     line-height: 28px;
     letter-spacing: 2.7px;
     padding-left: 547px;
@@ -374,7 +400,7 @@ body {
     text-transform: uppercase;
     font-size: 12px;
     font-weight: medium;
-    font-family: 'Gotham Rounded';
+    font-family: 'mainFont';
     line-height: 23px;
     letter-spacing: 2.5px;
     padding-left: 208px;
@@ -385,7 +411,7 @@ body {
 	position: relative;
 	border-radius: 3px;
 	display: inline-block;
-	font-family: 'Gotham Rounded';
+	font-family: 'mainFont';
     letter-spacing: 2.7px;
     /* border-radius: 0px; */
     margin-left: 1px;
@@ -453,7 +479,7 @@ body {
     margin: auto;
 }
 .link-below{
-	font-family: 'Gotham Rounded';
+	font-family: 'mainFont';
     color: #373737;
     font-size: 13px;
     font-weight: bold;
@@ -469,7 +495,7 @@ body {
 	color: black;
 }
 .right-reserved{
-	font-family: 'Gotham Rounded';
+	font-family: 'mainFont';
     color: #373737;
     font-size: 14px;
     font-weight: bold;
